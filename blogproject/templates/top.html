@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>ブログ</h1>
+<a href="{% url 'articles.list' %}">記事一覧</a>
+<a href="{% url 'articles.create' %}">記事作成</a>
+{% endblock %}
